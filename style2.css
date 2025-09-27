@@ -1,0 +1,1240 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+* {
+  margin: 0;
+}
+.body {
+  background: #f5f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-align-center {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  background-color: #f5f5f7;
+}
+.logoText {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 44px;
+  color: #cacacc;
+}
+.anchors {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.logo {
+  width: 14px;
+  height: 44px;
+}
+.hover-divs {
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  justify-content: center;
+  padding-top: 10px;
+  left: 0;
+  height: 0px;
+  gap: 100px;
+  top: 35px;
+  transition: 1s all;
+  font-size: 12px;
+  color: #000;
+  background-color: white;
+  width: 100%;
+  z-index: 3;
+}
+.hover-divs div p {
+  display: none;
+}
+.hoverloh-store:hover .hover-divs {
+  height: 380px;
+}
+.hoverloh-store:hover .hover-divs div p {
+  display: block;
+}
+.hoverloh-mac:hover .hover-divs {
+  height: 500px;
+}
+.hoverloh-mac:hover .hover-divs div p {
+  display: block;
+}
+.hoverloh-ipad:hover .hover-divs {
+  height: 480px;
+}
+.hoverloh-ipad:hover .hover-divs div p {
+  display: block;
+}
+.hoverloh-iphone:hover .hover-divs {
+  height: 400px;
+}
+.hoverloh-iphone:hover .hover-divs div p {
+  display: block;
+}
+.hoverloh-watch:hover .hover-divs {
+  height: 430px;
+}
+.hoverloh-watch:hover .hover-divs div p {
+  display: block;
+}
+.hoverloh-vision:hover .hover-divs {
+  height: 430px;
+}
+.hoverloh-vision:hover .hover-divs div p {
+  display: block;
+}
+.hoverloh-airpots:hover .hover-divs {
+  height: 430px;
+}
+.hoverloh-airpots:hover .hover-divs div p {
+  display: block;
+}
+.hoverloh-tv:hover .hover-divs {
+  height: 430px;
+}
+.hoverloh-tv:hover .hover-divs div p {
+  display: block;
+}
+.hoverloh-entertainment:hover .hover-divs {
+  height: 430px;
+}
+.hoverloh-entertainment:hover .hover-divs div p {
+  display: block;
+}
+.hoverloh-accessories:hover .hover-divs {
+  height: 430px;
+}
+.hoverloh-accessories:hover .hover-divs div p {
+  display: block;
+}
+.hover-div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: 25px;
+  gap: 12px;
+  margin-left: -110px;
+}
+.hover-div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: 15px;
+  gap: 12px;
+}
+.hover-div3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: 15px;
+  gap: 12px;
+}
+.head {
+  font-size: 18px;
+  color: grey;
+  margin-bottom: 20px;
+}
+.bottom {
+  font-size: 18px;
+  color: rgb(60, 60, 60);
+  margin-top: 20px;
+}
+.bottom2 {
+  font-size: 18px;
+  color: rgb(60, 60, 60);
+}
+.headerColor {
+  position: relative;
+  width: 100%;
+}
+.dorov {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-shrink: 0;
+  color: #1d1d1f;
+  text-align: start;
+  font-family: "Helvetica Neue";
+  font-size: 8.4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 142.857% */
+  letter-spacing: -0.224px;
+  padding: 0px;
+}
+.flexC {
+  display: flex;
+  width: 100vw;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+}
+.textCon {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+.text {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 20px;
+  color: #1d1d1f;
+  background-color: white;
+  z-index: 1;
+  font-size: 14px;
+}
+.a {
+  width: 5px;
+  height: 10px;
+  text-align: center;
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+}
+.blue {
+  width: 70%;
+  background-color: #019ffb;
+  filter: blur(10px);
+}
+.pink {
+  width: 30%;
+  background-color: #f55be4;
+  filter: blur(10px);
+}
+.pinkk {
+  width: 30%;
+  background-color: #e44cbb;
+  filter: blur(10px);
+}
+.orange {
+  width: 30%;
+  background-color: #e44cbb;
+  filter: blur(10px);
+}
+.back {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  border-radius: 8px;
+  gap: 12px;
+}
+.smalimg img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.womanText {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding: 77px 0px 61px 0px;
+  justify-content: space-between;
+  width: 1920px;
+}
+.display-flex-align {
+  display: flex;
+  align-items: start;
+}
+.store {
+  font-size: 43.875px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.gift {
+  color: #6e6e73;
+  font-size: 43.875px;
+  font-weight: 700;
+}
+.need {
+  color: #1d1d1f;
+  font-size: 14px;
+  font-weight: 700;
+}
+.anchor {
+  text-decoration: none;
+  color: #06c;
+  font-size: 14px;
+  font-weight: 400;
+}
+.pica {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  height: 198px;
+  gap: 10px;
+}
+.flow-scroll {
+  width: 100vw;
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  width: fit-content;
+  height: 550px;
+  padding: 10px 0px 40px 60px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  height: 198px;
+  gap: 10px;
+}
+.mac {
+  color: #1d1d1f;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+.iphone16 {
+  background-image: url("picture/latestIphone.jpeg");
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  color: #1d1d1f;
+  font-size: 25.594px;
+  border-radius: 30px;
+  transition: 1s all;
+}
+.iphone16:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.imgWord {
+  position: absolute;
+  top: 100;
+  left: 0;
+}
+.watch10 {
+  border-radius: 30px;
+  background-image: url("picture/latestWatch.jpeg");
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  transition: 1s all;
+}
+.watch10:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.apple_watch {
+  color: #1d1d1f;
+  font-size: 25.922px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.196px;
+  padding-top: 54px;
+  padding-left: 30px;
+  border-radius: 30px;
+}
+.imgText {
+  position: relative;
+  width: 480px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.apple_intelligence {
+  color: #b64400;
+  font-size: 11.813px;
+  font-weight: 700;
+  margin-top: 31px;
+  margin-left: 30px;
+  display: inline-flex;
+  padding: 1px 71.86px 9px 0px;
+  align-items: flex-start;
+  gap: -0.2px;
+}
+.gurvaljin {
+  display: flex;
+  width: 5.23px;
+  height: 9px;
+  flex-direction: column;
+  justify-content: center;
+  color: #b64400;
+  font-family: "Helvetica Neue";
+  font-size: 7.2px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 9.6px;
+  letter-spacing: -0.12px;
+}
+.big_black-words {
+  color: #1d1d1f;
+  font-size: 25.594px;
+  font-weight: 700;
+  margin-left: 30px;
+  display: flex;
+  width: 172.033px;
+  height: 33px;
+  flex-direction: column;
+  justify-content: center;
+  font-style: normal;
+}
+.price {
+  color: #1d1d1f;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px; /* 123.529% */
+  margin-top: 8px;
+  margin-left: 30px;
+}
+.ipad {
+  background-image: url("picture/latestIpad.jpeg");
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  transition: 1s all;
+  border-radius: 30px;
+}
+.ipad:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.macbook {
+  background-image: url("picture/latestMacbook.jpeg");
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  transition: 1s all;
+  border-radius: 30px;
+}
+.macbook:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.latest {
+  font-size: 25.813px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.wonders {
+  color: #6e6e73;
+  font-size: 25.594px;
+  font-weight: 700;
+}
+.picaa {
+  display: flex;
+  width: 1920px;
+  padding-top: 90px;
+}
+.list-personalization {
+  display: flex;
+  width: 1920px;
+  height: 550px;
+  padding: 10px 0px 40px 60px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  margin-left: -80px;
+}
+.airpods {
+  background-image: url(picture/perAirpods.jpg);
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.airpods:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.img-text {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.make {
+  display: flex;
+  width: 179.4px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #1d1d1f;
+  font-size: 25.484px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.196px;
+  margin-left: 30px;
+  margin-top: 53px;
+}
+.white-background {
+  width: 313px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.white-background:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.img-airpods-max {
+  background-image: url(picture/perAirpodsMax.jpg);
+  width: 230px;
+  height: 230px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin: 71px 41.5px 0px 41.5px;
+}
+.color-list {
+  display: flex;
+  align-items: center;
+  padding: 25px 86px 21px 79px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 7px;
+  flex-shrink: 0;
+}
+
+.free-engraving {
+  color: #b64400;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+  margin-bottom: 6px;
+}
+.airPods-max-purple {
+  color: #1d1d1f;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.pricee {
+  color: #1d1d1f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 30px;
+}
+.img-airpods-pro2 {
+  background-image: url(picture/perAirpodsPro.png);
+  width: 230px;
+  height: 230px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin: 71px 41.5px 0px 41.5px;
+}
+.free-engraving2 {
+  color: #b64400;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 6px;
+}
+.img-airpods4 {
+  background-image: url(picture/perAirpods4.png);
+  width: 230px;
+  height: 230px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin: 71px 41.5px 0px 41.5px;
+}
+.img-pin {
+  background-image: url(picture/perPin.png);
+  width: 230px;
+  height: 230px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin: 71px 41.5px 0px 41.5px;
+}
+.price179 {
+  color: #1d1d1f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.quick {
+  background-image: url(picture/holidayQuick.png);
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.quick:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.surprise {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 53px;
+  width: 281.58px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1d1d1f;
+  font-size: 25.594px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.196px;
+}
+.img-yellow-iphone {
+  background-image: url(picture/holidayYellowPhone.png);
+  width: 230px;
+  height: 230px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin: 71px 41.5px 0px 41.5px;
+}
+.new {
+  color: #b64400;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+  margin-bottom: 6px;
+  display: flex;
+  width: 25.83px;
+  height: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+.silicone {
+  color: #1d1d1f;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+  display: flex;
+  width: 227.9px;
+  height: 41px;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 21px;
+  letter-spacing: -0.374px;
+}
+.money {
+  color: #1d1d1f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 31px;
+  margin-left: 30px;
+}
+.img-mini {
+  background-image: url(picture/holidayHomepod.png);
+  width: 230px;
+  height: 230px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin: 71px 41.5px 0px 41.5px;
+}
+.mini {
+  color: #1d1d1f;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+  display: flex;
+  width: 227.9px;
+  height: 41px;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 21px;
+  letter-spacing: -0.374px;
+  margin-top: 15px;
+}
+.tablet {
+  background-image: url(picture/perAirpodsPro.png);
+  width: 230px;
+  height: 230px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin: 71px 41.5px 0px 41.5px;
+}
+.img-blue-earphone {
+  background-image: url(picture/holiday-blue-earphone.png);
+  width: 230px;
+  height: 230px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin: 71px 41.5px 0px 41.5px;
+}
+.bag {
+  background-image: url(picture/only-bag.png);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.bag:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.get {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 53px;
+  width: 287.75px;
+  height: 130px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1d1d1f;
+  font-size: 25.813px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.971% */
+  letter-spacing: 0.196px;
+}
+.white-box {
+  width: 313px;
+  height: 240px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  background-size: cover;
+  transition: 1s all;
+}
+.white-box:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.box-space {
+  display: flex;
+  width: 313px;
+  height: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.customize {
+  display: flex;
+  width: 227.37px;
+  height: 85px;
+  justify-content: center;
+  color: #1d1d1f;
+  font-size: 21.563px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 129.855% */
+  letter-spacing: 0.216px;
+  align-items: center;
+  padding: 60px;
+}
+.trade {
+  background-image: url(picture/only-trade.png);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.trade:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.apple-trade {
+  display: flex;
+  width: 150.06px;
+  height: 14px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #6e6e73;
+  font-size: 11.813px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 135.45% */
+  letter-spacing: -0.12px;
+  margin-left: 30px;
+  margin-top: 53px;
+  margin-top: 30px;
+}
+.device {
+  display: flex;
+  margin-left: 30px;
+  width: 287.75px;
+  height: 130px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1d1d1f;
+  font-size: 25.813px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.971% */
+  letter-spacing: 0.196px;
+}
+.woman-picture {
+  background-image: url(picture/only-woman.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.woman-picture:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.list-only {
+  display: flex;
+  height: 550px;
+  padding-left: 70px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.music {
+  background-image: url(picture/experience-music.png);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.music:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.apple-music {
+  display: flex;
+  width: 80.89px;
+  height: 14px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #6e6e73;
+  font-size: 11.813px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 135.45% */
+  letter-spacing: -0.12px;
+  padding: 31px 0px 8px 30px;
+}
+.get-3-months {
+  display: flex;
+  width: 217.11px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1d1d1f;
+  font-size: 25.703px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 124.498% */
+  letter-spacing: 0.196px;
+  padding: 0px 0px 9px 30px;
+}
+.include {
+  display: flex;
+  width: 226.93px;
+  height: 41px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #1d1d1f;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 123.529% */
+  letter-spacing: -0.374px;
+  padding: 0px 0px 0px 30px;
+}
+.apple-tv {
+  background-image: url(picture/experience-apple-tv.png);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.apple-tv:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.tv {
+  display: flex;
+  width: 64.61px;
+  height: 14px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #f5f5f7;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: -0.12px;
+  padding: 31px 0px 8px 30px;
+}
+.apple-device {
+  display: inline-block;
+  width: 404.03px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 25.813px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.971% */
+  letter-spacing: 0.196px;
+  margin-left: 30px;
+}
+.plus {
+  display: inline-block;
+  width: 21.79px;
+  height: 20px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 16.8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 114.286% */
+  letter-spacing: 0.196px;
+}
+.subscriptions {
+  background-image: url(picture/experience-subscriptions.png);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.subscriptions:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.six-apple {
+  display: flex;
+  width: 285.87px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1d1d1f;
+  font-size: 25.813px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.971% */
+  letter-spacing: 0.196px;
+  padding: 53px 0px 0px 30px;
+}
+.all {
+  background-image: url(picture/experience-all.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.all:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.intelligence {
+  display: flex;
+  width: 200px;
+  height: 14px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #6e6e73;
+  font-size: 11.813px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 135.45% */
+  letter-spacing: -0.12px;
+  padding: 31px 0px 8px 30px;
+}
+.features {
+  display: flex;
+  width: 383.11px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #1d1d1f;
+  font-size: 25.156px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 127.205% */
+  letter-spacing: 0.196px;
+  padding-left: 30px;
+}
+.businesses {
+  display: flex;
+  color: #6e6e73;
+  font-size: 25.484px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 125.567% */
+  letter-spacing: 0.196px;
+  margin-left: -1700px;
+}
+.deals {
+  background-image: url(picture/special-card.png);
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.deals:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.carrier-deals {
+  display: flex;
+  width: 200px;
+  height: 14px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #6e6e73;
+  font-size: 11.625px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 137.634% */
+  letter-spacing: -0.12px;
+  padding: 31px 0px 18px 30px;
+}
+.one-stop {
+  display: flex;
+  width: 330.67px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1d1d1f;
+  font-size: 25.266px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 126.654% */
+  letter-spacing: -0.196spx;
+  padding: 0px 0px 0px 30px;
+}
+.get-up {
+  display: flex;
+  width: 320.79px;
+  height: 62px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #1d1d1f;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 123.529% */
+  letter-spacing: -0.374px;
+  padding: 9px 0px 0px 30px;
+}
+.edu {
+  background-image: url(picture/special-ipad.png);
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.edu:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.certified {
+  background-image: url(picture/special-refurb.png);
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.certified:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.bus {
+  background-image: url(picture/special-business.png);
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.bus:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.busi {
+  display: flex;
+  width: 60.28px;
+  height: 14px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #86868b;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: -0.12px;
+  padding: 31px 0px 18px 30px;
+}
+.focus {
+  display: flex;
+  width: 306.06px;
+  height: 98px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 25.156px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 127.205% */
+  letter-spacing: 0.196px;
+  padding: 9px 0px 0px 30px;
+}
+.gov {
+  background-image: url(picture/special-green-mac.jpeg);
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  transition: 1s all;
+}
+.gov:hover {
+  transform: scale(1.05);
+  font-size: 40px;
+}
+.quick-links {
+  display: flex;
+  width: 145.23px;
+  height: 34px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1d1d1f;
+  font-size: 25.484px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 125.567% */
+  letter-spacing: 0.196px;
+}
+.select_button {
+  display: flex;
+  width: 126.66px;
+  height: 38px;
+  padding: 11px 16px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3.16px;
+  border-radius: 980px;
+  border: 1px solid #1d1d1f;
+}
+.select_button2 {
+  display: flex;
+  width: 139.42px;
+  height: 38px;
+  padding: 11px 16px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3.16px;
+  border-radius: 980px;
+  border: 1px solid #1d1d1f;
+}
+.select_button3 {
+  display: flex;
+  width: 94.83px;
+  height: 38px;
+  padding: 11px 16px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3.17px;
+  border-radius: 980px;
+  border: 1px solid #1d1d1f;
+}
+.select_button4 {
+  display: flex;
+  width: 120px;
+  height: 38px;
+  padding: 11px 16px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3.16px;
+  border-radius: 980px;
+  border: 1px solid #1d1d1f;
+}
+.buttom {
+  display: flex;
+  height: 75px;
+  padding: 0px 466.1px 37px 0px;
+  align-items: flex-start;
+  gap: 12.42px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: -960px;
+}
